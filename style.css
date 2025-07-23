@@ -267,7 +267,7 @@ button{width: 150px;
     /* card section end */
     /* Plants-Lover-Section start */
     .pic1 img{
-        width: fit-content;
+        width: 320px;
     }
     .pic2 img{
 display: none;
