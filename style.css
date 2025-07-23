@@ -131,6 +131,40 @@ button{
    border: none;
 }
 /* card section end */
+/* Plants-Lover-Section start */
+.Plants-Lover-Section{
+    margin-top: 211px;
+    display: flex;
+    justify-content: space-between;
+gap: 80px;
+}
+.Plants-Lover-Section .left{
+    position: relative;
+}
+.pic2 img{
+  width: 315px;
+  position: absolute;
+  top: -170px;
+  left: 330px;
+  
+ 
+}
+
+.right h1{
+    font-size: 50px;
+}
+.right ul li{
+    font-size: 22px;
+  max-width: 80%;
+  color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+margin-top: 30px;
+align-items: center;
+}
+/* Plants-Lover-Section end */
+
+
+
 
 
 
@@ -231,6 +265,26 @@ button{width: 150px;
 
 }
     /* card section end */
+    /* Plants-Lover-Section start */
+    .pic1 img{
+        width: fit-content;
+    }
+    .pic2 img{
+display: none;
+  
+}
+.Plants-Lover-Section{
+    flex-direction: column;
+   
+}
+.right h1{
+    font-size: 24px;
+}
+.right ul li{
+    font-size: 14px;
+  max-width: 100%;
+}
+    /* Plants-Lover-Section end */
 
 }
 
