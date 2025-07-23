@@ -59,8 +59,7 @@ margin:0px 10px 0px 48px;
     justify-content: space-between;
 
 }
-
-.left span{
+ span{
     color: red;
 }
 .left h1{
@@ -74,12 +73,56 @@ margin:0px 10px 0px 48px;
     color: rgba(0, 0, 0, 0.5);
       font-family: "Inter";
 }
+/* Our Plants  section star*/
+.Our-Plants {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+.Our-Plants h1 {
+    font-size: 50px;
+     font-family: "Noto Serif", serif;
 
+}
+.Our-Plants p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+max-width: 65%;
+  text-align: center;
+}
+
+
+
+
+/* Our Plants  section end */
 
 
 
 
 /* main end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -107,7 +150,7 @@ margin-top: 50px;
     }
     /* header end */
     /* main start */
-
+/* banner star */
 .banner{
     margin-top: 150px;
     gap: 28px;
@@ -115,9 +158,6 @@ margin-top: 50px;
 
 }
 
-.left span{
-    color: red;
-}
 .left h1{
  
     font-size: 24px;
@@ -129,6 +169,25 @@ margin-top: 50px;
 .right img{
     width: 350px;
 }
+/* banner end */
+
+/* our plan start */
+.Our-Plants{
+    margin-top: 30px;
+}
+.Our-Plants h1 {
+    font-size: 24px;
+
+
+}
+.Our-Plants p{
+    font-size: 14px;
+    max-width: 80%;
+  }
+
+}
+
+/* our plan end */
     
     /* main end */
 }
