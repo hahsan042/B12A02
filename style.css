@@ -92,12 +92,45 @@ margin:0px 10px 0px 48px;
 max-width: 65%;
   text-align: center;
 }
-
-
-
-
 /* Our Plants  section end */
 
+
+/* card section start */
+.card-section{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px 20px;
+    margin-top: 49px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+align-items: center;
+    
+}
+.card1 img{
+    width: 100%;
+  
+}
+.card1 p{
+    font-size: 22px;
+    font-family: Inter;
+   
+}
+#USD{
+    font-weight: 700;
+}
+button{
+    width: 270px;
+    height: 50px;
+    background-color:#E95A08;
+  font-weight: 600;
+  color: white;
+   font-family: Inter;
+   border: none;
+}
+/* card section end */
 
 
 
@@ -133,61 +166,71 @@ max-width: 65%;
 
 /* responsive */
 /* header start */
-@media screen and (width<=575px){
-  
-    .container{
-        width: 350px;
+@media screen and (max-width: 575px) {
+
+    .container {
+        width: 90%;
+        margin: auto;
     }
-    .service{
-   display: none;
+
+    .service {
+        display: none;
     }
-    nav{
- justify-content: space-between;
-margin-top: 50px;
+
+    nav {
+        justify-content: space-between;
+        margin-top: 50px;
     }
-    .logo img{
+
+    .logo img {
         width: 60%;
     }
-    /* header end */
-    /* main start */
-/* banner star */
-.banner{
-    margin-top: 150px;
-    gap: 28px;
-    flex-direction: column-reverse;
+
+    /* banner start */
+    .banner {
+        margin-top: 150px;
+        gap: 28px;
+        flex-direction: column-reverse;
+    }
+
+    .left h1 {
+        font-size: 24px;
+    }
+
+    .left p {
+        font-size: 13px;
+    }
+
+    .right img {
+        width: 100%;
+        max-width: 350px;
+    }
+    /* banner end */
+
+    /* our plan start */
+    .Our-Plants {
+        margin-top: 30px;
+    }
+
+    .Our-Plants h1 {
+        font-size: 24px;
+    }
+
+    .Our-Plants p {
+        font-size: 14px;
+        max-width: 80%;
+    }
+    /* our plan end */
+
+    /* card section start*/
+    .card-section{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+button{width: 150px;
 
 }
-
-.left h1{
- 
-    font-size: 24px;
-   
-}
-.left p{
-    font-size: 13px;
-}
-.right img{
-    width: 350px;
-}
-/* banner end */
-
-/* our plan start */
-.Our-Plants{
-    margin-top: 30px;
-}
-.Our-Plants h1 {
-    font-size: 24px;
-
-
-}
-.Our-Plants p{
-    font-size: 14px;
-    max-width: 80%;
-  }
-  
-  /* our plan end */
-    
-    /* main end */
+    /* card section end */
 
 }
 
