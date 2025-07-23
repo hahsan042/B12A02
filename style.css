@@ -48,6 +48,45 @@ nav a{
 margin:0px 10px 0px 48px;
 
 }
+/* header end */
+
+
+
+/* main star */
+.banner{
+    margin-top: 150px;
+    display: flex;
+
+}
+
+.left span{
+    color: red;
+}
+.left h1{
+    margin-bottom: 13px;
+    font-size: 65px;
+    font-family: "Noto Serif", serif;
+}
+.left p{
+    max-width: 95%;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+      font-family: "Inter";
+}
+
+
+
+
+
+/* main end */
+
+
+
+
+
+
+
+
 /* responsive */
 /* header start */
 @media screen and (width<=575px){
@@ -65,4 +104,30 @@ margin-top: 50px;
     .logo img{
         width: 60%;
     }
+    /* header end */
+    /* main start */
+
+.banner{
+    margin-top: 150px;
+  gap: 28px;
+    flex-direction: column-reverse;
+
+}
+
+.left span{
+    color: red;
+}
+.left h1{
+ 
+    font-size: 24px;
+   
+}
+.left p{
+    font-size: 13px;
+}
+.right img{
+    width: 350px;
+}
+    
+    /* main end */
 }
