@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+
+/* header part */
+.menu{
+     font-family: "Inter";
+}
+.logo img{
+    width: 100%;
+}
+nav ul{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    
+}
+#home{
+    color: black;
+    font-weight: 700;
+}
+#shop-about{
+    color: rgb(137, 135, 161);
+}
+#card{
+    color: black;
+}
+.fa-solid{
+margin:0px 10px 0px 48px;
+
+}
+/* responsive */
+/* header start */
+@media screen and (width<=575px){
+  
+    .container{
+        width: 392px;
+    }
+    .service{
+   display: none;
+    }
+    nav{
+ justify-content: space-between;
+margin-top: 50px;
+    }
+    .logo img{
+        width: 60%;
+    }
+}
