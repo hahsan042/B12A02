@@ -14,7 +14,6 @@
  
 }
 
-
 /* header part */
 .menu{
      font-family: "Inter";
@@ -162,7 +161,129 @@ margin-top: 30px;
 align-items: center;
 }
 /* Plants-Lover-Section end */
+/* Latest-Deals-banner start */
+/* .Latest-Deals-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Latest-Deals-banner .left{
+    display: flex;
+    flex-direction: column;
+     background-color: red;
+   flex: 1;
+    gap: 10px;
+}
+.Latest-Deals-banner .right{
+    background-color: wheat;
+    flex: 1;
+}
+.opasity{
+    display: grid;
+    place-content: center;
+   background-color: rgba(0, 0, 0, 0.2);
+   color: white;
+   height: 206px;
+   text-align: center;
+}
+.opasity h1{
+   font-size: 20px;
+       font-weight: 600;
+       
+}
+.opasity a{
+    font-weight: 600;
+    color: white;
+    height: 100%;
+}
+.box1{
+    background-image: url(./assets/deal-bloom.png);
+background-size: cover;
+height: 206px;
 
+}
+.box2{
+    background-image: url(./assets/deal-ana.png);
+background-size: cover;
+}
+.box3{
+    background-image: url(./assets/deal-zabo.png);
+background-size: cover;
+height: 400px;
+background-color: black;
+} */
+.Latest-Deals-banner{
+     display: grid;
+     gap: 10px;
+     margin-top: 120px;
+   grid-template-columns: 30%  1fr;
+   grid-template-rows: repeat(2, 220px);
+}
+.box1{
+    order: 1;
+   background-image: url(./assets/deal-bloom.png);
+   background-size: cover;
+}
+.box2{order: 2;
+   grid-row: span 2;
+   background-image: url(./assets/deal-zabo.png);
+   background-size: cover;
+}
+.box3{
+    order: 3;
+   background-image: url(./assets/deal-ana.png);
+   background-size: cover;
+}
+#box{
+position: relative;
+    border-radius: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    
+
+}
+#box::after{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+opacity: 0.35;
+background-color: black;
+z-index: 1;
+border-radius: 5px;
+
+}
+#box h1,a{
+    color: white;
+    z-index: 2;
+}
+
+.Latest-Deals-banner .box h1{
+    font-size: 20px;
+    font-family: 700;
+    font-family: "Noto Serif", serif;
+}
+.Latest-Deals-banner .box a{
+    font-weight: 600;
+     font-family: "Inter";
+}
+.box2 h1{
+    font-size: 60px;
+    font-family: "Noto Serif", serif;
+}
+.box2 a{font-size: 28px;
+    font-weight: 600;
+}
+
+
+
+/* Latest-Deals-banner end */
 
 
 
@@ -285,6 +406,43 @@ display: none;
   max-width: 100%;
 }
     /* Plants-Lover-Section end */
+
+    /*   Latest-Deals-banner start    */
+    .Latest-Deals-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+#box{
+    height: 200px;
+    line-height: 30px;
+}
+.Latest-Deals-banner .box h1{
+    font-size: 20px;
+    font-family: 700;
+    font-family: "Noto Serif", serif;
+}
+.Latest-Deals-banner .box a{
+    font-weight: 600;
+     font-family: "Inter";
+}
+.box2 h1{
+    font-size: 20px;
+    font-family: "Noto Serif", serif;
+}
+.box2 a{font-size: 16px;
+    font-weight: 600;
+}
+.box1{
+    order: 1;
+}
+.box2{
+    order: 3;
+}
+.box3{
+    order: 2;
+}
+/* Latest-Deals-banner end */
 
 }
 
