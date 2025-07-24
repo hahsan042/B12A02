@@ -145,10 +145,18 @@ gap: 80px;
   position: absolute;
   top: -170px;
   left: 330px;
-  
- 
+   filter: drop-shadow(0 3px 3px rgb(0, 0, 0));
+    animation: rotateIcon 10s  linear infinite;
 }
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 
+}
 .right h1{
     font-size: 50px;
 }
@@ -161,57 +169,7 @@ margin-top: 30px;
 align-items: center;
 }
 /* Plants-Lover-Section end */
-/* Latest-Deals-banner start */
-/* .Latest-Deals-banner{
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-.Latest-Deals-banner .left{
-    display: flex;
-    flex-direction: column;
-     background-color: red;
-   flex: 1;
-    gap: 10px;
-}
-.Latest-Deals-banner .right{
-    background-color: wheat;
-    flex: 1;
-}
-.opasity{
-    display: grid;
-    place-content: center;
-   background-color: rgba(0, 0, 0, 0.2);
-   color: white;
-   height: 206px;
-   text-align: center;
-}
-.opasity h1{
-   font-size: 20px;
-       font-weight: 600;
-       
-}
-.opasity a{
-    font-weight: 600;
-    color: white;
-    height: 100%;
-}
-.box1{
-    background-image: url(./assets/deal-bloom.png);
-background-size: cover;
-height: 206px;
 
-}
-.box2{
-    background-image: url(./assets/deal-ana.png);
-background-size: cover;
-}
-.box3{
-    background-image: url(./assets/deal-zabo.png);
-background-size: cover;
-height: 400px;
-background-color: black;
-} */
 .Latest-Deals-banner{
      display: grid;
      gap: 10px;
