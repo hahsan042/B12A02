@@ -1,2 +1,2 @@
-- 📂 **GitHub Repository:**
-- 🌐 **Live Link:**
+- 📂 **GitHub Repository:**https://github.com/hahsan042/B12A02
+- 🌐 **Live Link:**https://hahsan042.github.io/B12A02/index.html
