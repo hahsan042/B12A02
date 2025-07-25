@@ -280,11 +280,12 @@ footer {
   justify-content: space-around;
 }
 .footer-left p {
-  margin-top: 16px;
+  margin: 16px 0 16px 10px;
   max-width: 350px;
   font-size: 22px;
   font-family: "Inter";
   color: rgba(0, 0, 0, 0.5);
+  /*! margin-left: 10px; */
 }
 .footer-menu ul {
   display: grid;
@@ -297,6 +298,7 @@ footer ul li a {
   list-style: none;
   color: rgb(107, 114, 128);
   text-decoration: none;
+  margin-left: 10px;
 }
 .footer-right {
   display: flex;
@@ -309,7 +311,7 @@ footer ul li a {
   .container {
     width: 100%;
     margin: auto;
-    padding: 15px;
+    /*! padding: 15px; */
   }
 
   .service {
@@ -333,15 +335,18 @@ footer ul li a {
   }
 
   .left h1 {
-    font-size: 24px;
+    font-size: 35px;
+    margin-left: 10px;
   }
 
   .left p {
-    font-size: 13px;
+    font-size: 20px;
+    margin-left: 10px;
   }
 
   .right img {
     width: 100%;
+    /*! width: 350px; */
   }
   /* banner end */
 
@@ -351,12 +356,12 @@ footer ul li a {
   }
 
   .Our-Plants h1 {
-    font-size: 24px;
+    font-size: 35px;
   }
 
   .Our-Plants p {
-    font-size: 14px;
-    max-width: 80%;
+    font-size: 20px;
+    max-width: 100%;
   }
   /* our plan end */
 
@@ -380,11 +385,13 @@ footer ul li a {
     flex-direction: column;
   }
   .right h1 {
-    font-size: 24px;
+    font-size: 35px;
+    margin-left: 10px;
   }
   .right ul li {
-    font-size: 14px;
+    font-size: 20px;
     max-width: 100%;
+    margin-left: 25px;
   }
   /* Plants-Lover-Section end */
 
@@ -399,7 +406,7 @@ footer ul li a {
     line-height: 30px;
   }
   .Latest-Deals-banner .box h1 {
-    font-size: 20px;
+    font-size: 27px;
     font-family: 700;
     font-family: "Noto Serif", serif;
   }
@@ -408,12 +415,14 @@ footer ul li a {
     font-family: "Inter";
   }
   .box2 h1 {
-    font-size: 20px;
+    font-size: 27px;
     font-family: "Noto Serif", serif;
   }
   .box2 a {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
+    margin-top: 5px;
+    font-family: "Inter";
   }
   .box1 {
     order: 1;
@@ -452,5 +461,6 @@ footer ul li a {
     align-items: center;
 
     margin-top: 50px;
+    margin-left: 10px;
   }
 }
